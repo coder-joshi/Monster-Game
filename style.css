@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#monsterStats{
+    display: none;
+    background-color: red;
+    color: whitesmoke; 
+
+}
+
+#game{
+    margin: auto;
+    max-width: 39rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 24rem; */
+    font-size: 1.2rem;
+}
+
+.border{
+    border: 2px solid black;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.btn{
+    margin: .5rem 1rem;
+    font-size: 1rem;
+}
+
+.text-bg{
+    color: whitesmoke;
+    background-color: black;
+}
+
+.desc-border{
+    border: 2px solid black;
+}
